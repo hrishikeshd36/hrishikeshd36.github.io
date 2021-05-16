@@ -1,0 +1,106 @@
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+.head,
+.neck,
+.left_arm,
+.right_arm,
+.left_leg,
+.lower_body,
+.right_leg{
+	background-color: #F4A460;
+}
+
+.head{
+	width: 150px;
+	height: 150px;
+	border-radius: 15px;
+}
+.left_ear,.right_ear {
+	background-color: red;
+	border-radius: 15px;
+	width: 40px; 
+	height: 40px;
+	margin-top: 45px;
+}
+.face, .eyes, .upper_body, .lowerbody {
+	display: flex;
+	justify-content: center;
+}
+.left_eye{
+	margin-right: 45px;
+	margin-top: 35px;
+}
+.left_eye, .right_eye { 
+	width: 10px; 
+	height: 25px; 
+	border-radius: 5px; 
+	background-color: black;
+	margin-top: 35px;  
+} 
+.nose {
+	display: flex;
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 15px; 
+	height: 15px;
+	border-radius: 15px;
+	background-color: black;
+}
+.smile {
+	display: flex;
+	margin: 0 auto;
+	margin-top: 15px;
+}	
+
+.smile{
+	width: 50px; 
+	height: 10px;
+	background-color: black;
+
+}
+
+.neck{
+	width: 40px; 
+	height: 35px;
+	margin: 0 auto;
+	margin-top: 3px;
+}
+
+.left_arm, .right_arm{
+	width: 40px;
+	height: 180px;
+	margin-right: 5px;
+	border-radius: 15px;
+	margin-top: 15px;
+}
+.right_arm{
+	margin-left: 5px;	
+}
+
+.torso{
+	background-color: black;
+	width: 200px;
+	height: 230px;
+	border-radius: 15px;
+}
+.left_leg{
+	margin-right: 60px;	
+}
+.right_leg, .left_leg{	
+	width: 35px;
+	height: 170px;
+	border-radius: 15px;
+}
+.robot{
+	transition: transform 3s;
+}
+.robot:hover{
+	-webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);	
+}
